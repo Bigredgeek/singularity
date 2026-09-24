@@ -2,13 +2,14 @@
 
 # Singularity
 
-Singularity is an AIO fugu exploit root app for Meta VR headsets.
+Singularity is an AIO fugu exploit root app for Meta VR headsets. \
+Root in 3-10 seconds enjoy ;)
 
 This supports Quest 2, pro, 3, and 3s currently. The process can take a bit to achieve root access. If you are having issues with it failing. Please power the device off and on and try again.
 
 ## Usage
 1. Install the app with ADB with the command `adb install -g Singularity.apk`
-2. Setup Wireless ADB
+2. Setup Wireless ADB (The app will tell you how too)
 3. Press Root Now (If it stops and Root Now is no longer greyed out, press it again)
 4. Once you gain root, it will soft reboot. Don't try to root again.
 5. Check If an app called Singularity-Magisk is in Unknown Sources
@@ -16,25 +17,36 @@ This supports Quest 2, pro, 3, and 3s currently. The process can take a bit to a
 
 ## Features
 - Root-on-boot for root
-- FreeXR [safe root things](https://github.com/FreeXR/safe-root-things)
-- Root Terminal
+- Magisk installer built in
+- Rooted/Unrooted Terminal
+- Controller Pairing
+- FreeXR [safe root things](https://github.com/FreeXR/safe-root-things) (LED color, UI tweaks, dogfood hub)
+- Important Partition Protector
+- Meta Telemetry disabler
+- Update Engine disabler (Stops forced updates while rooted)
+- Meta Backdoor disabler 
 - Internet kill switch and Domain Blocker
 - Wireless ADB Setup
+- Manual Fan Controller
+- Battery Charge Limter
 - Frida-Server 
 - Meta Based Zygisk "Fix"
-- USB notification auto accepting for MTP access
-- Meta Telemetry disabling
-- No-controller requirement
-- OS Update Monitoring to unqueue forced updates
 - Build type spoofer (user, userdebug, eng)
-- CPU/GPU monitoring/config
-- App manager (Installing/Uninstalling/Launching)
-- Loft Installation for devices missing the environment
-- Eye Calibration launcher for Quest Pro
 - Fix Controllers option (Some have issues with controllers not working after root)
+- Double Tap Passthrough disabler
+- Proximity Sensor disabler (with dock charger Quest Pro detection)
+- Soft Rebooting
+- Boot animation switcher (Not permanent)
+- USB notification auto accepting for MTP access
+- Eye Calibration launcher for Quest Pro
+- Loft Installation for devices missing the environment
+- Simultaneous Hands & Controllers (Buggy)
+- No-controller requirement
+- System hang fix (prevents system from hanging in certain conditions)
 - UI switching (DockUI/NavUI)
-
-I need to update features
+- CPU/GPU monitoring/configuration
+- App manager (Installing/Uninstalling/Launching)
+- Built in Magisk/Vector module manager
 
 ## Installation
 
