@@ -7,6 +7,11 @@ Root in 3-10 seconds enjoy ;)
 
 This supports Quest 2, pro, 3, and 3s currently. The process can take a bit to achieve root access. If you are having issues with it failing. Please power the device off and on and try again.
 
+# Warning
+I take no responsibility with what you do with your headset. Anything you do with root is not my concern or my own actions. Don't flash directly to partitions or mess with things you don't understand period. If you have to ask yourself "what is root?", you should probably do your own research before rooting your headset.
+
+This is meant too help people use their headsets how they please without Meta breathing down their neck watching them constantly and restricting what they can and can't do with their hardware.
+
 ## Usage
 1. Install the app with ADB with the command `adb install -g Singularity.apk`
 2. Setup Wireless ADB (The app will tell you how too)
@@ -14,6 +19,10 @@ This supports Quest 2, pro, 3, and 3s currently. The process can take a bit to a
 4. Once you gain root, it will soft reboot. Don't try to root again.
 5. Check If an app called Singularity-Magisk is in Unknown Sources
 6. If it is, open it and grant Singularity root in the Super User tab and close/reopen Singularity
+
+If you get a black screen after root, and you had magisk modules installed before using Fugu, run this command on PC with root shell. This is nothing to worry about. Its just a magisk hiccup.
+
+`adb shell su -c "magisk --remove-modules"`
 
 ## Features
 - Root-on-boot for root
