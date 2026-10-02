@@ -64,6 +64,12 @@ Download the latest APK from [releases](https://github.com/Lumince/singularity/r
 
 "-g" will grant the needed "WRITE_SECURE_SETTINGS" permission so Singularity can enable Wireless ADB on the device.
 
+## Security reporting
+
+GitHub Issues is currently disabled for this repository. Before sharing
+sensitive security findings publicly, please ask the maintainer for their
+preferred reporting channel. [please see PR notes as I have identified some potential security risks, **don't accept this PR as-is**]
+
 ## Frida
 
 This repo contains Frida-Server, source is [here](https://github.com/frida/frida)
